@@ -1,0 +1,102 @@
+# Mixed-license scope notice
+
+This notice separates three kinds of repository material. Kyle Turchick licenses the listed project-authored software under the MIT License. He licenses the listed documentation, figures, tables, annotations, and newly derived results under Creative Commons Attribution 4.0 International (CC BY 4.0), but only to the extent that he owns or controls the applicable rights. The 407 redistributed inputs are outside both project grants; the repository relies on the CC BY 4.0 treatment declared by the cited Pellett–Valbuena Zenodo records. The complete unmodified Open Source Initiative MIT text, with the copyright notice completed, follows this scope notice.
+
+## 1. MIT-licensed Software
+
+For this repository, “Software” in the MIT text below means only the project-authored portions of these materials:
+
+- the following 13 `.R` files under `code/`, including project-authored comments and literal strings:
+  - `code/R/00_setup_paths.R`;
+  - `code/R/01_packages.R`;
+  - `code/R/02_io_lock_metadata.R`;
+  - `code/R/03_source_data_prep.R`;
+  - `code/R/04_pellett_valbuena_replication.R`;
+  - `code/R/05_delta_hdr_model_helpers.R`;
+  - `code/R/06_brief_analysis_hierarchy.R`;
+  - `code/R/07_brief_deliverables.R`;
+  - `code/R/08_validation_helpers.R`;
+  - `code/export_figure_table_source_data.R`;
+  - `code/run_delta_hdr_brief_reanalysis.R`;
+  - `code/run_pellett_valbuena_replication.R`; and
+  - `code/run_reanalysis.R`;
+- `.gitignore`;
+- `.mi_hdr_project_root`;
+- the three tracked directory markers:
+  - `data/external/pellett_valbuena_2025/01_concept/.gitkeep`;
+  - `data/external/pellett_valbuena_2025/02_MBH_comb/.gitkeep`; and
+  - `data/external/pellett_valbuena_2025/04_som/.gitkeep`.
+
+Documentation, figures, tables, manifests, environment records, and generated artifacts are not included in this definition of “Software.”
+
+For the listed R files, the MIT grant applies only to project-authored portions.
+
+`code/R/03_source_data_prep.R` and `code/R/04_pellett_valbuena_replication.R` implement selected Pellett & Valbuena procedures in R; they do not reproduce the complete Julia workflow. Their provenance and source citations are documented in `PELLETT_VALBUENA_WORKFLOW.md` and `THIRD_PARTY_NOTICES.md`. Any upstream material remains subject to its own terms and outside the MIT grant. Those terms do not alter the standard MIT grant for Kyle Turchick’s project-authored R expression.
+
+## 2. Project-authored materials licensed under CC BY 4.0
+
+To the extent copyright or database rights exist and are controlled by Kyle Turchick, the following current project-authored materials are licensed under the Creative Commons Attribution 4.0 International Public License:
+
+- the project-authored mixed-license scope notice in this `LICENSE` file above the `# The MIT License` heading;
+- the following ten reader-facing Markdown guides and notices:
+  - `README.md`;
+  - `RUN_INSTRUCTIONS.md`;
+  - `PELLETT_VALBUENA_WORKFLOW.md`;
+  - `THIRD_PARTY_NOTICES.md`;
+  - `code/README.md`;
+  - `data/README.md`;
+  - `data/external/pellett_valbuena_2025/README.md`;
+  - `environment/README.md`;
+  - `results/README.md`; and
+  - `results/delta_hdr_reanalysis/source_data/README.md`;
+- `environment/R_VERSION.txt`;
+- `environment/PACKAGE_VERSIONS.csv`;
+- `environment/SESSION_INFO.txt`;
+- the project-controlled selection, arrangement, and annotations in `data/INPUT_MANIFEST.csv`;
+- the project-controlled presentation, selection, arrangement, annotations, and newly derived results in the following five included manuscript-analysis products:
+  - `results/delta_hdr_reanalysis/manuscript_tables_figures/main_text/main_text_mean_independent_heterogeneity_reveals_diminishing_return_HDRs.png`;
+  - `results/delta_hdr_reanalysis/manuscript_tables_figures/extended_data/extended_data_figure_1_macarthur_all_analyses.png`;
+  - `results/delta_hdr_reanalysis/manuscript_tables_figures/extended_data/extended_data_figure_2_allouche_all_analyses.png`;
+  - `results/delta_hdr_reanalysis/manuscript_tables_figures/extended_data/extended_data_table_1_macarthur_model_comparisons_and_coefficient_checks.md`; and
+  - `results/delta_hdr_reanalysis/manuscript_tables_figures/extended_data/extended_data_table_2_allouche_model_comparisons_and_coefficient_checks.md`; and
+- the project-controlled selection, arrangement, annotations, and newly derived results in these five source-data tables:
+  - `results/delta_hdr_reanalysis/source_data/observations.csv`;
+  - `results/delta_hdr_reanalysis/source_data/fitted_mean_curves.csv`;
+  - `results/delta_hdr_reanalysis/source_data/model_comparisons.csv`;
+  - `results/delta_hdr_reanalysis/source_data/model_terms.csv`; and
+  - `results/delta_hdr_reanalysis/source_data/figure1_illustrative_curves.csv`.
+
+The following project-authored materials are included in this CC BY 4.0 grant when present in this repository:
+
+- `CITATION.cff`; and
+- `RELEASE_MANIFEST.csv`.
+
+The Creative Commons legal code is distributed unmodified in `LICENSES/CC-BY-4.0.txt` and is available at https://creativecommons.org/licenses/by/4.0/legalcode.txt.
+
+Requested attribution:
+
+> “Reshaping landmark heterogeneity–diversity relationships,” by Kyle Turchick (2026), licensed under CC BY 4.0. When reasonably practicable, link to the repository or archived release from which the material was obtained.
+
+This is an attribution request under CC BY 4.0, not an additional restriction.
+
+## 3. Materials outside both project license grants
+
+Exactly the 407 input paths listed in `data/INPUT_MANIFEST.csv` are outside both project license grants. They are redistributed in reliance on the CC BY 4.0 treatment declared by the cited Pellett–Valbuena Zenodo records and retain the source attribution described in `THIRD_PARTY_NOTICES.md`. Both records declare CC BY 4.0 for their deposits; this project did not independently reconstruct every upstream permission. This project does not claim ownership of or sublicense those inputs.
+
+The project license grants also do not cover embedded Shannon values or other upstream factual material, upstream source expression, quotations, trademarks, or other third-party rights not controlled by Kyle Turchick. Inclusion of a file within the MIT-defined Software does not relicense any such material contained in that file.
+
+## 4. Other materials outside the project grants
+
+Any material not expressly included in the grants defined in Sections 1 and 2 remains outside both project license grants unless a separate notice states otherwise.
+
+---
+
+# The MIT License
+
+Copyright 2026 Kyle Turchick
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this data and code companion, please cite it using the metadata in this file."
+type: dataset
+title: "Reshaping landmark heterogeneity–diversity relationships"
+authors:
+  - family-names: Turchick
+    given-names: Kyle
+    affiliation: "Ashley School of Global Development and the Environment, Cornell University, Ithaca, New York, USA"
